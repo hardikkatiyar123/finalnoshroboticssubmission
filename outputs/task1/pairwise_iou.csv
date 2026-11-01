@@ -1,0 +1,6 @@
+,gdino_sam3,owlv2_sam3,yoloworld_sam3,wbf_sam3,sam3_text
+gdino_sam3,1.0,0.793,0.813,0.978,0.957
+owlv2_sam3,0.793,1.0,0.768,0.793,0.807
+yoloworld_sam3,0.813,0.768,1.0,0.83,0.807
+wbf_sam3,0.978,0.793,0.83,1.0,0.944
+sam3_text,0.957,0.807,0.807,0.944,1.0

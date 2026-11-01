@@ -1,0 +1,212 @@
+scripts\task21_eda.py:154: MatplotlibDeprecationWarning: Passing the range parameter of hist() positionally is deprecated since Matplotlib 3.10; the parameter will become keyword-only in 3.12.
+  ax.hist(pix[k][1], 64, (0, 256), density=True, alpha=.55, color="#888", label="background")
+scripts\task21_eda.py:155: MatplotlibDeprecationWarning: Passing the range parameter of hist() positionally is deprecated since Matplotlib 3.10; the parameter will become keyword-only in 3.12.
+  ax.hist(pix[k][0], 64, (0, 256), density=True, alpha=.55, color="#e07b39", label="egg")
+{
+ "A": {
+  "images": 87,
+  "eggs_per_image": {
+   "1": 71,
+   "2": 8,
+   "3": 8
+  },
+  "egg_area_pct_median": 7.953613281249999,
+  "egg_area_pct_p5_p95": [
+   3.46826171875,
+   21.8170166015625
+  ]
+ },
+ "B": {
+  "pct_eggs_touching_border": 1.8018018018018018,
+  "egg_prob_centre_quarter": 0.38320536997126436,
+  "egg_prob_outer_band": 0.011110587284482758
+ },
+ "C_overlap": {
+  "gray": 0.4788275862068966,
+  "H": 0.7932183908045976,
+  "S": 0.6454329501915709,
+  "V": 0.49673563218390804,
+  "L": 0.4811800766283525,
+  "a": 0.7908735632183908,
+  "b": 0.7475019157088123
+ },
+ "D": {
+  "egg_S_median": 8.0,
+  "egg_V_median": 194.0,
+  "bg_S_median": 23.0,
+  "bg_V_median": 119.0,
+  "pct_bg_pixels_bright_and_grey": 27.293486590038313,
+  "pct_egg_pixels_bright_and_grey": 80.50344827586207
+ },
+ "E": {
+  "pct_images_egg_brighter_than_bg_mean": 98.85057471264368,
+  "pct_images_egg_brighter_than_ring": 98.85057471264368,
+  "median_pct_bg_brighter_than_egg_by_scene": {
+   "ash": 20.2,
+   "colored_plastic": 1.0,
+   "fabric": 0.2,
+   "foil_keyboard_floor": 0.9,
+   "hand": 0.2,
+   "plants": 1.2,
+   "steel_pot": 7.7,
+   "stone_counter": 0.1,
+   "white_surface": 16.5
+  }
+ },
+ "F": {
+  "bright, plain bg": {
+   "n": 33,
+   "bg_V": 144.44,
+   "otsu_gray_iou": 0.292,
+   "best_thr_iou": 0.467,
+   "pct_bg_brighter": 1.503
+  },
+  "dark, colourful bg": {
+   "n": 21,
+   "bg_V": 85.076,
+   "otsu_gray_iou": 0.557,
+   "best_thr_iou": 0.697,
+   "pct_bg_brighter": 0.008
+  },
+  "grey, cluttered bg": {
+   "n": 33,
+   "bg_V": 112.699,
+   "otsu_gray_iou": 0.219,
+   "best_thr_iou": 0.36,
+   "pct_bg_brighter": 8.719
+  }
+ },
+ "F_scene_by_cluster": {
+  "bright, plain bg": {
+   "ash": 0,
+   "colored_plastic": 4,
+   "fabric": 5,
+   "foil_keyboard_floor": 3,
+   "hand": 4,
+   "plants": 0,
+   "steel_pot": 1,
+   "stone_counter": 4,
+   "white_surface": 12
+  },
+  "dark, colourful bg": {
+   "ash": 0,
+   "colored_plastic": 3,
+   "fabric": 4,
+   "foil_keyboard_floor": 2,
+   "hand": 1,
+   "plants": 5,
+   "steel_pot": 0,
+   "stone_counter": 6,
+   "white_surface": 0
+  },
+  "grey, cluttered bg": {
+   "ash": 6,
+   "colored_plastic": 3,
+   "fabric": 2,
+   "foil_keyboard_floor": 7,
+   "hand": 3,
+   "plants": 0,
+   "steel_pot": 9,
+   "stone_counter": 1,
+   "white_surface": 2
+  }
+ },
+ "H": {
+  "otsu_gray": 0.3285591561880749,
+  "otsu_V": 0.306465891125816,
+  "otsu_S": 0.2005981976072353,
+  "best_thr_gray": 0.4816373758050076
+ },
+ "G": {
+  "best_cluster": {
+   "2": 0.325,
+   "3": 0.404,
+   "4": 0.424,
+   "5": 0.425
+  },
+  "brightest_grey_cluster": {
+   "2": 0.325,
+   "3": 0.403,
+   "4": 0.419,
+   "5": 0.41
+  }
+ },
+ "I": {
+  "n_blobs": 3004,
+  "n_egg_blobs": 142,
+  "quantiles": {
+   "False_q0.05": {
+    "area": 0.031,
+    "circularity": 0.046,
+    "solidity": 0.278
+   },
+   "False_q0.5": {
+    "area": 0.072,
+    "circularity": 0.2,
+    "solidity": 0.602
+   },
+   "False_q0.95": {
+    "area": 14.28,
+    "circularity": 0.609,
+    "solidity": 0.915
+   },
+   "True_q0.05": {
+    "area": 2.869,
+    "circularity": 0.156,
+    "solidity": 0.768
+   },
+   "True_q0.5": {
+    "area": 6.278,
+    "circularity": 0.648,
+    "solidity": 0.97
+   },
+   "True_q0.95": {
+    "area": 19.629,
+    "circularity": 0.864,
+    "solidity": 0.987
+   }
+  },
+  "pct_touching_border": {
+   "false": 30.1,
+   "true": 7.7
+  }
+ },
+ "J": {
+  "white_surface": {
+   "boundary_on_edge": 0.21,
+   "background_edge_density": 0.08
+  },
+  "steel_pot": {
+   "boundary_on_edge": 0.58,
+   "background_edge_density": 0.09
+  },
+  "colored_plastic": {
+   "boundary_on_edge": 0.59,
+   "background_edge_density": 0.09
+  },
+  "hand": {
+   "boundary_on_edge": 0.68,
+   "background_edge_density": 0.04
+  },
+  "fabric": {
+   "boundary_on_edge": 0.7,
+   "background_edge_density": 0.37
+  },
+  "foil_keyboard_floor": {
+   "boundary_on_edge": 0.76,
+   "background_edge_density": 0.28
+  },
+  "ash": {
+   "boundary_on_edge": 0.85,
+   "background_edge_density": 0.67
+  },
+  "stone_counter": {
+   "boundary_on_edge": 0.94,
+   "background_edge_density": 0.04
+  },
+  "plants": {
+   "boundary_on_edge": 0.99,
+   "background_edge_density": 0.78
+  }
+ }
+}

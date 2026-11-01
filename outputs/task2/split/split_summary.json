@@ -1,0 +1,82 @@
+{
+  "seed": 114,
+  "balance_cost": 0.6407,
+  "n_dev": 87,
+  "n_eval": 23,
+  "eval_sessions": [
+    "earphone_rug",
+    "hand_dark_bg",
+    "marble_touching",
+    "pink_basin",
+    "tiles_pot",
+    "white_paper"
+  ],
+  "scene_counts": {
+    "ash": {
+      "dev": 6,
+      "eval": 0
+    },
+    "colored_plastic": {
+      "dev": 10,
+      "eval": 6
+    },
+    "fabric": {
+      "dev": 11,
+      "eval": 3
+    },
+    "foil_keyboard_floor": {
+      "dev": 12,
+      "eval": 0
+    },
+    "hand": {
+      "dev": 8,
+      "eval": 6
+    },
+    "plants": {
+      "dev": 5,
+      "eval": 0
+    },
+    "steel_pot": {
+      "dev": 10,
+      "eval": 1
+    },
+    "stone_counter": {
+      "dev": 11,
+      "eval": 4
+    },
+    "white_surface": {
+      "dev": 14,
+      "eval": 3
+    }
+  },
+  "multi_egg_frac": {
+    "dev": 0.1839080459770115,
+    "eval": 0.17391304347826086
+  },
+  "cross_session_strong_pairs": [
+    [
+      "not_damaged_18",
+      "not_damaged_21",
+      50,
+      38
+    ],
+    [
+      "not_damaged_18",
+      "not_damaged_42",
+      45,
+      28
+    ]
+  ],
+  "nearest_neighbour": {
+    "SIFT+RANSAC inliers to nearest image": {
+      "dev_nn_median": 16.0,
+      "eval_nn_median": 14.0,
+      "eval_nn_max": 50.0
+    },
+    "colour-histogram correlation to nearest image": {
+      "dev_nn_median": 0.7888779185631223,
+      "eval_nn_median": 0.6681844791931723,
+      "eval_nn_max": 0.8625840242563988
+    }
+  }
+}

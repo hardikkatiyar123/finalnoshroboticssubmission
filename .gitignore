@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.pt
+.modal.toml
+.env
+# Dataset images and the task video: download them (see README)
+data/images/
+data/video/
+# Large regenerable outputs (Task 1 and 2 results are committed; see README)
+outputs/**/instances/
+outputs/**/*.npz
+outputs/**/*.mp4
+outputs/demo/

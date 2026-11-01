@@ -1,0 +1,30 @@
+{
+  "split": "dev",
+  "n": 87,
+  "algo": "t21",
+  "config": {
+    "threshold": [
+      "otsu",
+      "multiotsu3",
+      "multiotsu4"
+    ],
+    "open_r": 2,
+    "fill_holes": true,
+    "min_area": 1.0,
+    "max_area": 40.0,
+    "min_solidity": 0.85,
+    "drop_border": true,
+    "select": "central",
+    "keep_ratio": 0.5,
+    "refine": "grabcut",
+    "grabcut_band": 0.5,
+    "centre_fallback": 0.6
+  },
+  "mean_iou": 0.6626623054809948,
+  "mean_dice": 0.7374351964212889,
+  "mean_precision": 0.7714647162316741,
+  "mean_recall": 0.7809381159139569,
+  "mean_time_s": 0.4454140689678292,
+  "median_iou": 0.7510221517056203,
+  "count_acc": 0.8275862068965517
+}

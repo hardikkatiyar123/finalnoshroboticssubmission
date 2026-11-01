@@ -1,0 +1,8 @@
+image_num,image,split,n_gdino_sam3,n_sam3_text,union_iou,gt_source,my_verdict
+13,not_damaged_13_jpg.rf.60964651b01aed5680a994ecbd7012ea.jpg,dev,1,2,0.8915,sam3_text,
+22,not_damaged_22_jpg.rf.427da4fa2858bf0484b607774c6077c5.jpg,eval,2,1,0.7281,sam3_text,
+39,not_damaged_39_jpg.rf.81c4c633444db832268298ddae1010d6.jpg,eval,2,1,0.7169,sam3_text,
+116,not_damaged_116_jpg.rf.43fecd96347e2129115fceed65986cc9.jpg,dev,1,0,0.0,gdino_sam3,
+124,not_damaged_124_jpg.rf.931f62b8d40a093039633b898e0e9114.jpg,dev,1,0,0.0,gdino_sam3,
+125,not_damaged_125_jpg.rf.b19353b1f84dcbef1ec088b850927bb3.jpg,dev,1,2,0.8282,sam3_text,
+145,not_damaged_145_jpg.rf.5147bfde42f30a27504377fd5ef13b05.jpg,dev,1,0,0.0,gdino_sam3,

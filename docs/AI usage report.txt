@@ -1,0 +1,3 @@
+Compute & Training: Model execution and heavy pipelines were trained on an H100 GPU using Modal free credits.
+
+Remaining AI Usage: Claude Code assisted with refining the code at places and helping with different utilities such as modal setup , environment setup and few libraries related to EDA scripting and final submission assembly. it was used only as an aid to guide the code, rest complete ideation and execution was principally designed and done solely by me for which I have attached the log. the report also is made by me. 

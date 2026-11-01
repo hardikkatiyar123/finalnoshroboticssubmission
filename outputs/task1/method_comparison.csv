@@ -1,0 +1,6 @@
+method,images,images_with_egg,images_without_egg,eggs_found,eggs_in_gt,count_equals_gt_pct,mean_iou_vs_gt,median_iou_vs_gt,iou_ge_0.9_pct
+gdino_sam3,110,110,0,141,141,96.4,0.984,0.993,96.4
+owlv2_sam3,110,88,22,120,141,76.4,0.78,0.991,76.4
+yoloworld_sam3,110,98,12,136,141,78.2,0.799,0.991,75.5
+wbf_sam3,110,110,0,142,141,93.6,0.962,0.993,93.6
+sam3_text,110,107,3,138,141,97.3,0.973,1.0,97.3
